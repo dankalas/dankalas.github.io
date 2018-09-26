@@ -1,0 +1,59 @@
+<! DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+Bridgeofspies.com
+</title>
+<link rel="stylesheet" type="text/css" href="resources/css/akalastyle.css">
+</head>
+<body background="resources/img/bridge.jpg">
+<div class="main_container">
+<div class="head">
+	<img src="resources/img/akala.png" width="170" height="70">
+	<nav>
+<ul>
+<li><a href="home.html">Home</a></li>
+<li><a href="con.html">Consoles</a></li>
+<li><a href="#">Signup</a></li>
+<li><a href="ame.html">Gaming PC's</a></li>
+<li><a href="ongames.html">Online Games</a></li>
+<li><a href="loginpage.html">Login</a></li>	
+</ul>
+
+</nav>
+
+
+</div><!--end_head-->
+<div class="content_home">  <fieldset id="checkers"><span id="choi">REGISTER</span>
+                                                 <form  id = "homeFform" action="#">
+
+                                                    <input type="email" id="emailField" placeholder="E-mail"> <br>
+                                                   <input id="che_one" type="password" placeholder="Password"><br>
+                                                                                            
+
+                                                   <input id="che_two" type="password" placeholder="Confirm Password"><br>
+
+                                                 <input class="u" type="submit" value="REGISTER"><br>
+                                                 <span><a href="login.html" style="text-decoration: none; color: beige;">Already signed up</a></span> </div>
+
+</div>
+<script>
+	var pathname = window. location.pathname; console. log(pathname);
+	let myLink = document.querySelectorAll("a");
+for(let link of myLink){if (link.pathname == pathname){
+    link.style.borderBottom= "2px solid #000000";
+    console.log(link.pathname)}
+    else if(link.pathname == '/none.html')link.addEventListener("click",event=> event.preventDefault());
+    //let opi = document.("a")
+
+}
+</script>
+
+</body>
+
+
+
+
+
+</html>
